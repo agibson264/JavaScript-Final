@@ -1,0 +1,125 @@
+body {
+    background-image: url(images/pizza_background.jpg);
+}
+
+#header {
+    background-color: rgba(237, 246, 255, 0.9);
+    border-radius: 25px;
+    width: 850px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    font-family: Papyrus, fantasy;
+    margin: 0;
+    margin-top: 25px;
+    padding-top: 15px;
+}
+
+#description {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.row {
+    width: 100%;
+    text-align: center; 
+}
+
+.container {
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    vertical-align: top;
+    border: 2px solid #91bbff;
+    border-radius: 10px;
+    background: rgba(107, 185, 255, 0.7);
+    padding: 12px 10px 12px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inputs {
+    text-align: left;
+    font-size: 13px;
+    padding: 5px;
+    background-color: rgba(247, 251, 255, 0.7);
+}
+
+#border {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+#order {
+    width: 850px;
+    background: rgba(107, 185, 255, 0.7);
+    text-align: center;
+    margin: auto;
+    border: 2px solid #91bbff;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+h3 {
+    padding-top: 15px;
+    margin: 0;
+}
+
+p {
+    font-size: 13px;
+    padding: 5px;
+    background-color: rgba(247, 251, 255, 0.7);
+}
+
+#forButton {
+    text-align: center;
+}
+
+.button {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.bottom_row {
+    display: table;
+    width: 850px;
+    text-align: left;
+    padding: 5px;
+}
+
+#uno, #dos {
+    font-size: 13px;
+    padding: 5px;
+    background-color: rgba(247, 251, 255, 0.7);
+}

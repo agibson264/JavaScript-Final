@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Pizza Online Order
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div id="pizza_menu">
+            <div id="header">
+                <h1>PICOLINO'S PIZZARIA</h1>
+                <h3 id="description">Create your own personalized pizza online!  You ask, we deliver!</h3>
+            </div>
+
+
+            <br>
+
+            <div class="row">
+                <div class="container">
+                    <h4 id="size">Pizza Size:</h4>
+                    <div class="inputs">
+                        <input type="radio" name="size" value="personal" checked>Personal ($6)<br>
+                        <input type="radio" name="size" value="medium">Medium ($10)<br>
+                        <input type="radio" name="size" value="large">Large ($14)<br>
+                        <input type="radio" name="size" value="xlarge">Extra Large ($16)<br>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h4 id="meat">Meat Selection (+$1 for every additional meat after first selection):</h4>
+                    <div class="inputs" id="meat_selection">
+                        <input type="checkbox" name="meat" value="pepperoni" checked>Pepperoni<br>
+                        <input type="checkbox" name="meat" value="sausage">Sausage<br>
+                        <input type="checkbox" name="meat" value="canadianbacon" checked>Canadian Bacon<br>
+                        <input type="checkbox" name="meat" value="groundbeef">Ground Beef<br>
+                        <input type="checkbox" name="meat" value="anchovy">Anchovy<br>
+                        <input type="checkbox" name="meat" value="chicken">Chicken<br>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h4 id="cheese">Cheese Selection:</h4>
+                    <div class="inputs">
+                        <input type="radio" name="cheese" value="regular" checked>Regular<br>
+                        <input type="radio" name="cheese" value="nocheese">No Cheese<br>
+                        <input type="radio" name="cheese" value="xcheese">Extra Cheese (+$3)<br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="container">
+                    <h4 id="crust">Crust Selection:</h4>
+                    <div class="inputs">
+                        <input type="radio" name="crust" value="plain" checked>Plain Crust<br>
+                        <input type="radio" name="crust" value="garlicbutter">Garlic Butter Crust<br>
+                        <input type="radio" name="crust" value="cheesestuffed">Cheese Stuffed Crust<br>
+                        <input type="radio" name="crust" value="spicy">Spicy Crust<br>
+                        <input type="radio" name="crust" value="housespecial">House Special Crust<br>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h4 id="sauce">Sauce Selection:</h4>
+                    <div class="inputs">
+                        <input type="radio" name="sauce" value="marinara" checked>Marinara Sauce<br>
+                        <input type="radio" name="sauce" value="white">White Sauce<br>
+                        <input type="radio" name="sauce" value="bbq">Barbeque Sauce<br>
+                        <input type="radio" name="sauce" value="none">No Sauce<br>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h4 id="veggie">Veggie Selection (+$1 for every additional veggie after first selection):</h4>
+                    <div class="inputs" id="veggie_selection">
+                        <input type="checkbox" name="veggie" value="tomatoes" checked>Tomatoes<br>
+                        <input type="checkbox" name="veggie" value="onions">Onions<br>
+                        <input type="checkbox" name="veggie" value="olives" checked>Olives<br>
+                        <input type="checkbox" name="veggie" value="greenpeppers">Green Peppers<br>
+                        <input type="checkbox" name="veggie" value="mushroom" checked>Mushroom<br>
+                        <input type="checkbox" name="veggie" value="pineapple">Pineapple<br>
+                        <input type="checkbox" name="veggie" value="spinach" checked>Spinach<br>
+                        <input type="checkbox" name="veggie" value="jalapeno">Jalapeno<br>
+                    </div>
+                </div>
+            </div>
+
+
+            <br>
+
+            <div id="forButton">
+                <button class="button">Place Your Order!</button>
+            </div>
+
+
+            <br>
+
+
+            <div id="divider">
+                <img src="images/border3.png" alt="border" id="border">
+            </div>
+
+
+            <br>
+
+
+            <div id="order">
+                <h3>Your Order:</h3>
+                <p>This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. This is a random paragraph. </p>
+                <div class="column">
+                    <p id="uno">hallo</p>
+                </div>
+                <div class="column">
+                    <p id="dos">hallo</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+            
+    </body>
+</html>
